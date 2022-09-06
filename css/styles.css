@@ -217,6 +217,11 @@ button:focus,
   max-width: 100%;
 }
 
+.about_me_words{
+  line-height: 1;
+  font-size: x-small;
+}
+
 /* About Pg Graphic Animation*/
 
 @keyframes moving-cloud-one {
