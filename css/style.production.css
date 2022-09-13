@@ -107,6 +107,9 @@ button:focus,
   cursor: pointer;
   opacity: 0.8;
 }
+.button:visited{
+  color: #dcdcdc;
+}
 
 .navigation-list__item--active{
   text-decoration: none;
@@ -390,6 +393,6 @@ button:focus,
 /* End animation */
 
 footer {
-  color: #ffa07a;
+  color: #bf5900;
   line-height: 1.5;
 }

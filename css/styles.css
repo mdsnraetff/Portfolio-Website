@@ -7,11 +7,11 @@ Secondary Color (Misty Rose): #ffe4e1;
 :root{
   --primary-color-text: #2f4f4f;
   --secondary-color-text: #000000;
-  --misty-rose: #ffe4e1;
+  --misty-rose: #bf5900;
   --button-background-color: #000000;
   --primary-font-size: 20px;
   --default-line-height: 1.5;
-  --primary-footer-color: #ffa07a;
+  --primary-footer-color: #bf5900;
 }
 
 *{
@@ -86,6 +86,8 @@ button:focus,
   cursor: pointer;
   opacity: 0.8;
 }
+.button:visited{
+  color: #dcdcdc;
 
 .navigation-list__item--active{
   text-decoration: none;
@@ -279,6 +281,6 @@ button:focus,
 /* End animation */
 
 footer {
-  color: var(--primary-footer-color);
+  color: #bf5900;
   line-height: var(--default-line-height);
 }
